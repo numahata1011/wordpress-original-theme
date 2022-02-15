@@ -1,0 +1,56 @@
+/*
+Theme Name: numahatake-wp
+Theme URL: numaresearch.com/
+Description: サンプルオリジナルテーマ
+Version: 2.0
+Author: numahatake
+Authour URL: numaresearch.com/
+*/
+
+body{
+	width: 1100px;
+	margin: 0 auto;
+}
+
+#nav-bar{
+	display: flex;
+	background-color: #f5f5f5;
+}
+
+#nav-bar li{
+	margin-right: 50px;
+	list-style-type: none;
+}
+
+#nav-bar li a{
+	font-size: 18px;
+	color: #777777;
+	font-weight: bold;
+}
+
+#main-body{
+	display: flex;
+}
+
+#main-body-left{
+	width: 70%;
+}
+
+.blogcard{
+	display: flex;
+}
+
+.posts{
+	padding-left: 30px;
+}
+
+#prenext{
+	display: flex;
+	justify-content: space-between;
+	margin: 30px;
+}
+
+footer{
+	background-color: #f5f5f5;
+	text-align: center;
+}
